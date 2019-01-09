@@ -25,7 +25,7 @@ module.exports = {
       //   console.log(result.gasLimit))
       gas: 4600000,
       gasPrice: web3.toWei("20", "gwei"),
-      network_id: "3",
+      network_id: "8888",
     },
     // mainnet: {
     //   provider: mainNetProvider,
