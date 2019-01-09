@@ -2,7 +2,7 @@
   "name": "coin",
   "version": "1.0.0",
   "description": "",
-  "main": "truffle-config.js",
+  "main": "truffle.js",
   "directories": {
     "test": "test"
   },
@@ -10,5 +10,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "zeppelin-solidity": "^1.12.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "ethereumjs-wallet": "^0.6.3",
+    "truffle-wallet-provider": "0.0.5"
+  }
 }
